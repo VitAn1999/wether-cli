@@ -1,10 +1,14 @@
 {
   "name": "weather-cli-by-vit_an",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "bin": "./index.js",
+  "description": "weather-cli",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,8 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github"
+    "url": "https://github.com/VitAn1999/wether-cli.git"
   },
   "author": "Vitali Rashchupkin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
+  }
 }
