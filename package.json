@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "start": "node weather.js",
+    "dev": "CITY=minsk TOKEN=7565b390444188d93004333cd4271f22 node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,5 +25,8 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "dedent-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "axios": "^1.3.4"
   }
 }
