@@ -1,6 +1,6 @@
 {
   "name": "weather-cli-by-vit_an",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "weather-cli",
   "main": "weather.js",
   "bin": {
@@ -24,9 +24,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
-    "dedent-js": "^1.0.1"
-  },
-  "devDependencies": {
+    "dedent-js": "^1.0.1",
     "axios": "^1.3.4"
-  }
+  },
+  "devDependencies": {}
 }
